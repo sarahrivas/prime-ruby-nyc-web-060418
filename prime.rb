@@ -1,4 +1,7 @@
 def prime?(num)
+  if num < 0
+    false
+  end
   while num > 2
     
   
@@ -6,9 +9,7 @@ def prime?(num)
   if num == 2 
     prime_nums.push(num)
   end
-  if num == -1
-    false
-  end
+  
   while num > 2
       num % i == 0 
       false 
