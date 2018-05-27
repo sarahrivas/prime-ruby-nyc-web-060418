@@ -1,4 +1,4 @@
-def prime?(array, num)
+def prime?(num)
   prime_nums = []
   if num == 2 
     prime_nums.push(num)
@@ -10,8 +10,10 @@ def prime?(array, num)
     array.each do |num|
       num % i == 0 
       false 
+      num += 1 
     end
       true
       prime_nums.push(num)
+      num += 1
   end  
 end    
