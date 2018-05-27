@@ -1,17 +1,17 @@
 def prime?(num)
   i = 2
+  isPrime = true
   if num <= 1
-    false
+    isPrime = false
   else 
-    isPrime = true
     while i < num
       if num % i == 0 
         isPrime = false
       end
       i += 1
     end
-    isPrime
-  end  
+  end
+  isPrime
 end    
     
   
