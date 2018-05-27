@@ -5,7 +5,11 @@ def prime?(num)
   end
   
   while i < num
-  
+    if num % i == 0 
+      false
+    end
+  end
+  true
 end    
     
   
