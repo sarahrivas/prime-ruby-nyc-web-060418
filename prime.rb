@@ -6,8 +6,7 @@ def prime?(num)
   if num == -1
     false
   end
-  loop do
-    array.each do |num|
+  while num > 2
       num % i == 0 
       false 
       num += 1 
