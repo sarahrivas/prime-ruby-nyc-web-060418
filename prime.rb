@@ -1,4 +1,4 @@
-def prime?
-  counter = 1
-  while counter % 
+def prime?(array, num)
+  array.each do |num|
+    num % 2
     
