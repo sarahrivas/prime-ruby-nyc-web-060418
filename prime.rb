@@ -3,13 +3,14 @@ def prime?(num)
   if num <= 1
     false
   else 
+    isPrime = true
     while i < num
       if num % i == 0 
-        false
+        isPrime = false
       end
       i += 1
     end
-    true
+    isPrime
   end  
 end    
     
