@@ -2,7 +2,10 @@ def prime?(array, num)
   prime_nums = []
   loop do
     array.each do |num|
-      num % i === 0 
+      if num == 2 
+        true 
+        prime_nums.push(num)
+      elsif num % i == 0 
       false 
     end
       true
