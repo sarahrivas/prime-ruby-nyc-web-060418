@@ -1,3 +1,4 @@
 def prime?
-  while i < number2
+  counter = 1
+  while counter % 
     
