@@ -1,9 +1,12 @@
 def prime?(array, num)
+  prime_nums = []
   loop do
     array.each do |num|
-    i % num === 0 
-    false 
+      num % i === 0 
+      false 
     end
+      true
+      prime_nums.push(num)
   end
 end  
     
