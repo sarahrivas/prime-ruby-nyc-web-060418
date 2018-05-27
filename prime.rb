@@ -1,3 +1,3 @@
-def prime?(number1, number2)
+def prime?
   while i < number2
     
