@@ -1,4 +1,7 @@
 def prime?(num)
+  while num > 2
+    
+  
   prime_nums = []
   if num == 2 
     prime_nums.push(num)
