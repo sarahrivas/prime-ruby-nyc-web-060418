@@ -1,4 +1,9 @@
 def prime?(array, num)
-  array.each do |num|
-    num % 2
+  loop do
+    array.each do |num|
+    i % num === 0 
+    false 
+    end
+  end
+end  
     
